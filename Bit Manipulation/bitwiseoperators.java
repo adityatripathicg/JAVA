@@ -9,5 +9,7 @@ public class bitwiseoperators{
         System.out.println(5^6);
         //One's Complement
         System.out.println(~5);
+        //Binary Left Shift
+        System.out.println(5<<2);
     }
 }
