@@ -11,5 +11,8 @@ public class bitwiseoperators{
         System.out.println(~5);
         //Binary Left Shift
         System.out.println(5<<2);
+        //Binary Right Shft
+        System.out.println(6>>1);
+
     }
 }
