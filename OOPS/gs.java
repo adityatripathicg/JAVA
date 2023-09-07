@@ -1,6 +1,6 @@
-public class GettersAndSetters {
+public class gs {
     public static void main(String args[]) {
-        pen p1 = new pen();
+        Pen p1 = new Pen();
         p1.setColour("blue");
         p1.setTip(5);
         System.out.println(p1.getColour());
@@ -8,7 +8,7 @@ public class GettersAndSetters {
     }
 }
 
-class pen {
+class Pen {
     private String colour;
     private int tip;
 
