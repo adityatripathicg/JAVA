@@ -18,9 +18,11 @@ class student {
     String username;
     int marks[];
     String pass;
+    int a;
 
     student() {
         System.out.println("Constructor is called...");
+        //blank
     }
 
     student(student s1) {
