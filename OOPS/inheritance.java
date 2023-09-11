@@ -3,6 +3,7 @@ public class inheritance {
         Fish tuna = new Fish();
         tuna.eat();
         tuna.breathe();
+        tuna.swim();
     }
 }
 //Base Class
