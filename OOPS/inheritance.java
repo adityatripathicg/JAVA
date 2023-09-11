@@ -2,6 +2,7 @@ public class inheritance {
     public static void main(String args[]){
         Fish tuna = new Fish();
         tuna.eat();
+        tuna.breathe();
     }
 }
 //Base Class
