@@ -16,11 +16,15 @@ abstract class Animal{//object of abstract class can't be created
     }
     String Color;
     Animal(){//constructor
-        Color = "brown";
+        //Color = "brown";
+        System.out.println("Animal constructor called");
     }
     abstract void walk();//abstract function can only be declared
 }
 class horse extends Animal{
+    horse(){
+        System.out.println("horse constructor called");
+    }
     void changeColor(){
         Color = "dark brown";
     }
