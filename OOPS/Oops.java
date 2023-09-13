@@ -8,6 +8,9 @@ class pen{
     public void Setcolor(String Ncolor){
         colour = Ncolor;
     }
+    
+}
+public class Oops{
     public static void main(String[] args) {
         pen p1 = new pen();
         p1.SetTip(5);
