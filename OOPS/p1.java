@@ -6,5 +6,6 @@ public class p1 {
         Student s = new Student(); 
         s.name = "cg";
         System.out.println(s.name);
+        System.out.println("HackAIthon");
     }
 }
