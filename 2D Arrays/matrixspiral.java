@@ -18,7 +18,7 @@ public class matrixspiral{
             for(int j=endcol-1;j>=startcol;j--){
                 System.out.print(matrix[endrow][j]+" ");
             }
-            //left
+            //left 
             for(int i = endrow-1;i>=startrow+1;i--){
                 System.out.print(matrix[i][startcol]+" ");
             }
